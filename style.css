@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@theme {
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded font-semibold text-white bg-blue-500 hover:bg-blue-600;
+  }
+
+  .card {
+    @apply p-6 rounded-lg shadow-md bg-white;
+  }
+}
