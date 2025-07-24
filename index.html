@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Flower Shop</title>
   </head>
-  <body class="overflow-hidden">
+  <body class="overflow-hidden bg-gradient-to-tl from-[#fdfbfb] via-[#e8ebee] to-[#cadcee]">
     <div class="main mx-[2.5vw] sm:mx-[9vw]">
       <header>
         <nav class="sm:flex items-center justify-between invisible sm:visible">
@@ -357,7 +357,7 @@
           Join the colorful Bunch
         </h1>
 
-        <div class="flex w-full max-w-[600px]">
+        <form action="#" class="flex w-full max-w-[600px]">
           <input
             type="email"
             placeholder="Write email"
@@ -365,14 +365,66 @@
           />
           <button
             type="submit"
-            class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-2 rounded-r-md"
+            class="bg-orange-500 hover:bg-orange-600 text-white px-4 sm:px-8 py-2 rounded-r-md"
           >
             Subscribe
           </button>
+        </form>
+      </section>
+      <section class="last-footer grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 p-14 bg-gray-100">
+        <div class="left">
+          <img src="assets/logo.png" alt="" />
+          <p class="text-gray-600 text-sm m-2">
+            Freshness is not just our promise — it's our passion. Every bouquet
+            is designed with joy and intention. Let your flowers be as
+            unforgettable as your moments.
+          </p>
+        </div>
+
+        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 text-gray-600 text-sm">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Help Center</a></li>
+        </ul>
+
+        <div class="logos flex justify-center gap-6">
+          <a href="#">
+            <img
+              src="assets/icon-linkedin.png"
+              alt="Image 1"
+              class="w-12 h-12 hover:scale-110 duration-300"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="assets/icon-twitter.png"
+              alt="Image 2"
+              class="w-12 h-12 hover:scale-110 duration-300"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="assets/icon-facebook.png"
+              alt="Image 3"
+              class="w-12 h-12 hover:scale-110 duration-300"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="assets/icon-youtube.png"
+              alt="Image 4"
+              class="w-12 h-12 hover:scale-110 duration-300"
+            />
+          </a>
         </div>
       </section>
-
-      
     </footer>
   </body>
 </html>
